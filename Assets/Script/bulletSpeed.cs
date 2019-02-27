@@ -11,7 +11,7 @@ public class bulletSpeed : MonoBehaviour
     void Start()
     {
         rigidbody = GetComponent<Rigidbody>();
-        rigidbody.velocity = transform.right * speed;
+        rigidbody.velocity = transform.up * speed;
     }
 
     // Update is called once per frame
